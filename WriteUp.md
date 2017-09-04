@@ -5,8 +5,12 @@
 
 **Build a Traffic Sign Recognition Project**
 ### Related Files
-Python Notebook: 
-Model Parameter:
+Python Notebook: [https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+
+Model Parameter: [https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/blob/master/lenet0.932.index](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/blob/master/lenet0.932.index)
+
+HTMl Notebook: [https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier_sub1_optionalNotWokring.html](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier_sub1_optionalNotWokring.html)
+
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -32,7 +36,7 @@ Here is an example image with classification
 
 Double Curve
 
-![alt text](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/example.png)
+![alt text](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/example.png "Double Curve")
 
 ### Design and Test a Model Architecture
 
@@ -99,6 +103,7 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 
 ##### 3-1
 
+![alt text](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/img1.png "Wild animals crossing")
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -109,7 +114,7 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 |Speed limit (80km/h)| 0.000 certainty|
 
 ##### 3-2
-
+![alt text](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/img2.png "Speed limit (70km/h)")
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -120,7 +125,7 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 |Speed limit (80km/h)| 0.000 certainty|
 
 ##### 3-3
-
+![alt text](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/img3.png "Speed limit (30km/h)")
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -131,7 +136,7 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 |Speed limit (80km/h)| 0.000 certainty|
 
 ##### 3-4
-
+![alt text](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/img4.png "Speed limit (120km/h)")
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -142,11 +147,11 @@ The model was able to correctly guess 5 of the 5 traffic signs, which gives an a
 |Speed limit (80km/h)| 0.000 certainty|
 
 ##### 3-5
-
+![alt text](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/img5.png "No passing for vehicles over 3.5 metric tons")
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-|No passing for vehicles over 3.5 metric tons: 1.000 certainty|
+|No passing for vehicles over 3.5 metric tons| 1.000 certainty|
 |Speed limit (100km/h)| 0.000 certainty|
 |Speed limit (20km/h)| 0.000 certainty|
 |Speed limit (30km/h)| 0.000 certainty|
