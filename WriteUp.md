@@ -90,72 +90,77 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Wild animals crossing      		| Wild animals crossing   									| 
-| Speed limit (70km/h)     			| Speed limit (70km/h)										|
-| Speed limit (30km/h)					| Speed limit (30km/h)											|
-| Speed limit (120km/h)    		|Speed limit (120km/h)					 				|
-| No passing for vehicles over 3.5 metric tons		| No passing for vehicles over 3.5 metric tons  							|
+| Train Crossing     		| Speed limit (80km/h)   									| 
+| Wild Animal Crossing     			| Speed limit (100km/h)										|
+| Pedestrain Crossing					| General caution											|
+| Steep Grade    		|Speed limit (60km/h)					 				|
+| Speed limit (60km/h)		|Speed limit (60km/h)  							|
 
 
-The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the validation set of 93.2%
+The model was able to correctly guess 1 of the 5 traffic signs, which gives an accuracy of 20%. This compares poorly to the accuracy on the validation set of 93.2%
 
 #### 3. Softmax Output
 
 ##### 3-1
 
-![alt text](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/img1.png "Wild animals crossing")
+!(alt text)[https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/data/sign1.png]
+!(alt text)[https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/data/sign1_32.png]
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-|Wild animals crossing| 1.000 certainty|
-|Double curve| 0.000 certainty|
-|Road work| 0.000 certainty|
-|Dangerous curve to the left| 0.000 certainty|
-|Speed limit (80km/h)| 0.000 certainty|
+|Speed limit (80km/h)| 0.139 certainty|
+|Speed limit (60km/h)| 0.086 certainty|
+|Speed limit (120km/h)| 0.064 certainty|
+|Speed limit (100km/h)| 0.054 certainty|
+|No passing for vehicles over 3.5 metric tons| 0.050 certainty|
 
 ##### 3-2
-![alt text](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/img2.png "Speed limit (70km/h)")
+!(alt text)[https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/data/sign2.png]
+!(alt text)[https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/data/sign2_32.png]
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-|Speed limit (70km/h)| 1.000 certainty|
-|Speed limit (30km/h)| 0.000 certainty|
-|Speed limit (50km/h)| 0.000 certainty|
-|Roundabout mandatory| 0.000 certainty|
-|Speed limit (80km/h)| 0.000 certainty|
+|Speed limit (100km/h)| 0.154 certainty|
+|No passing for vehicles over 3.5 metric tons| 0.104 certainty|
+|Speed limit (120km/h)| 0.097 certainty|
+|Speed limit (80km/h)| 0.092 certainty|
+|Wild animals crossing| 0.054 certainty|
 
 ##### 3-3
-![alt text](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/img3.png "Speed limit (30km/h)")
+!(alt text)[https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/data/sign3.png]
+!(alt text)[https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/data/sign3_32.png]
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-|Speed limit (30km/h)| 1.000 certainty|
-|Speed limit (70km/h)| 0.000 certainty|
-|Speed limit (50km/h)| 0.000 certainty|
-|Speed limit (20km/h)| 0.000 certainty|
-|Speed limit (80km/h)| 0.000 certainty|
+|General caution| 0.112 certainty|
+|Right-of-way at the next intersection| 0.091 certainty|
+|Speed limit (80km/h)| 0.073 certainty|
+|Speed limit (120km/h)| 0.071 certainty|
+|Speed limit (100km/h)| 0.064 certainty|
 
 ##### 3-4
-![alt text](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/img4.png "Speed limit (120km/h)")
+!(alt text)[https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/data/sign4.png]
+!(alt text)[https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/data/sign4_32.png]
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-|Speed limit (120km/h)| 1.000 certainty|
-|Speed limit (100km/h)| 0.000 certainty|
-|Speed limit (50km/h)| 0.000 certainty|
-|Speed limit (60km/h)| 0.000 certainty|
-|Speed limit (80km/h)| 0.000 certainty|
+|Speed limit (60km/h)| 0.161 certainty|
+|Speed limit (80km/h)| 0.116 certainty|
+|Speed limit (120km/h)| 0.068 certainty|
+|No passing for vehicles over 3.5 metric tons| 0.067 certainty|
+|Speed limit (100km/h)| 0.060 certainty|
 
 ##### 3-5
-![alt text](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/img5.png "No passing for vehicles over 3.5 metric tons")
+!(alt text)[https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/data/sign4.png]
+!(alt text)[https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/edit/master/data/sign4_32.png]
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-|No passing for vehicles over 3.5 metric tons| 1.000 certainty|
-|Speed limit (100km/h)| 0.000 certainty|
-|Speed limit (20km/h)| 0.000 certainty|
-|Speed limit (30km/h)| 0.000 certainty|
-|Speed limit (50km/h)| 0.000 certainty|
+|Speed limit (60km/h)| 0.137 certainty|
+|Speed limit (80km/h)| 0.087 certainty|
+|Speed limit (100km/h)| 0.071 certainty|
+|End of all speed and passing limits| 0.052 certainty|
+|End of speed limit (80km/h)| 0.052 certainty|
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
