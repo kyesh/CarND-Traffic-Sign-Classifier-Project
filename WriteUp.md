@@ -69,18 +69,21 @@ My final model consisted of the following layers:
 
 The main changes I made from the LeNet Project were changing the number of input channels to 3, the number of output channels to 43 and adding two more depth to the output of the first layer.
 
-#### 4. Model Training/Solution Approach
+#### 4. Model Training
 
 I noticed that ocasionally the model accuracy to would decrease after a step which is supposed to be a sign of a learning rate that is too high. So I came up with the stratagey of saving the parameters with the heighest accuracy seen so far. Then after running that set of epochs I could start from the highest accuracy achived with a smaller learning rate to close in on the target.
 
 I used a batch size of 128 and AdamOptimizer which was used in the LeNet Demo. After trying a few values I found after 50 epochs not much was gained on accuracy. Learning rate started at 0.001 but would be set lowere on a second run if a net look promising.
 
+#### 5. Solution Approach
+
+I decided to the LeNet Architecture because it was talked about in lecture and there was an easily avalible one to start working with and modifying. I decided to increase in the number of Epoachs because it was not clear if 10 Epoachs was enough to converge. After trying it with different values It looked like no progress was meaninfully achived after 50 Epoachs so I used that as the value. It did not get to the .93 validatioin rate it needed to pass. I thought that there needed to be more lowere level features so Increased the output depth of the first layer from 6 to 8. This was a enough to get a 0.93 validation rate needed to pass.
  
 ### Test a Model on New Images
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-I found this part kind of ambigous and it was unclear where I should find these images from, how I would get them to work in the 32x32x3 input of my neural net and how I would convert them into the python data structrue needed to run it in TensorFlow. I figured picking 5 random images from the test set would server the same purpose. If not please provide more clarity on this step.
+Found these on google and used gimp to crop and resize them.
 
 #### 2. Model's predictions on these new traffic signs
 
