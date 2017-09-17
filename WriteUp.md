@@ -36,7 +36,7 @@ Here is an example image with classification
 
 Double Curve
 
-![alt text](https://raw.githubusercontent.com/kyesh/master/example.png "Double Curve")
+![alt text](example.png "Double Curve")
 
 ### Design and Test a Model Architecture
 
@@ -103,8 +103,9 @@ The model was able to correctly guess 1 of the 5 traffic signs, which gives an a
 
 ##### 3-1
 
-!(alt text)[https://raw.githubusercontent.com/kyesh/master/data/sign1.png]
-!(alt text)[https://raw.githubusercontent.com/kyesh/master/data/sign1_32.png]
+![alt text](https://raw.githubusercontent.com/kyesh/CarND-Traffic-Sign-Classifier-Project/master/data/sign1.png "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/kyesh/CarND-Traffic-Sign-Classifier-Project/master/data/sign1_32.png "Logo Title Text 1")
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -115,8 +116,9 @@ The model was able to correctly guess 1 of the 5 traffic signs, which gives an a
 |No passing for vehicles over 3.5 metric tons| 0.050 certainty|
 
 ##### 3-2
-!(alt text)[https://raw.githubusercontent.com/kyesh/master/data/sign2.png]
-!(alt text)[https://raw.githubusercontent.com/kyesh/master/data/sign2_32.png]
+![alt text](https://raw.githubusercontent.com/kyesh/CarND-Traffic-Sign-Classifier-Project/master/data/sign2.png "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/kyesh/CarND-Traffic-Sign-Classifier-Project/master/data/sign2_32.png "Logo Title Text 1")
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -127,9 +129,9 @@ The model was able to correctly guess 1 of the 5 traffic signs, which gives an a
 |Wild animals crossing| 0.054 certainty|
 
 ##### 3-3
-!(alt text)[https://raw.githubusercontent.com/kyesh/master/data/sign3.png]
-!(alt text)[https://raw.githubusercontent.com/kyesh/master/data/sign3_32.png]
+![alt text](https://raw.githubusercontent.com/kyesh/CarND-Traffic-Sign-Classifier-Project/master/data/sign3.png "Logo Title Text 1")
 
+![alt text](https://raw.githubusercontent.com/kyesh/CarND-Traffic-Sign-Classifier-Project/master/data/sign3_32.png "Logo Title Text 1")
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 |General caution| 0.112 certainty|
@@ -139,8 +141,9 @@ The model was able to correctly guess 1 of the 5 traffic signs, which gives an a
 |Speed limit (100km/h)| 0.064 certainty|
 
 ##### 3-4
-!(alt text)[https://raw.githubusercontent.com/kyesh/master/data/sign4.png]
-!(alt text)[https://raw.githubusercontent.com/kyesh/master/data/sign4_32.png]
+![alt text](https://raw.githubusercontent.com/kyesh/CarND-Traffic-Sign-Classifier-Project/master/data/sign4.png "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/kyesh/CarND-Traffic-Sign-Classifier-Project/master/data/sign4_32.png "Logo Title Text 1")
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -151,8 +154,9 @@ The model was able to correctly guess 1 of the 5 traffic signs, which gives an a
 |Speed limit (100km/h)| 0.060 certainty|
 
 ##### 3-5
-!(alt text)[https://raw.githubusercontent.com/kyesh/master/data/sign4.png]
-!(alt text)[https://raw.githubusercontent.com/kyesh/master/data/sign4_32.png]
+![alt text](https://raw.githubusercontent.com/kyesh/CarND-Traffic-Sign-Classifier-Project/master/data/sign5.png "Logo Title Text 1")
+
+![alt text](https://raw.githubusercontent.com/kyesh/CarND-Traffic-Sign-Classifier-Project/master/data/sign5_32.png "Logo Title Text 1")
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
