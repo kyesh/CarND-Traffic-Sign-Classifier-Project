@@ -9,7 +9,7 @@ Python Notebook: [https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project
 
 Model Parameter: [https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/blob/master/lenet0.932.index](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/blob/master/lenet0.932.index)
 
-HTMl Notebook: [https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier_sub1_optionalNotWokring.html](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier_sub1_optionalNotWokring.html)
+HTML Notebook: [https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier_Sub2.html](https://github.com/kyesh/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier_Sub2.html)
 
 
 ## Rubric Points
